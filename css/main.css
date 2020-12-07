@@ -1,0 +1,134 @@
+/* CORPO */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, row {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #E77373;
+}
+
+.topnav a {
+  cursor: pointer;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ED9696;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E05252;
+  font-weight: 700;
+  color: white;
+}
+
+.topnav #nav-home {
+  cursor: default;
+}
+
+/* HOME */
+
+/* LISTA */
+
+.container-dados {
+  padding: 0 20px;
+}
+
+.titulo {
+  color: #E05252;
+  margin: 40px 0 10px 10px;
+  font-size: 40px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* CARD */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+/* FORM */
+
+.main-form {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 25px;
+}
+
+.message-success {
+  padding: 10px;
+  margin: 15px 0;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+}
+
+.message-error {
+  padding: 10px;
+  margin: 15px 0;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+}
